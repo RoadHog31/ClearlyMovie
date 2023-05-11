@@ -20,6 +20,6 @@ namespace ClearlyMovie.Data
         }
 
         //The preceding code creates a DbSet<Movie> property that represents the movies in the database.
-        public DbSet<MvcMovie.Models.Movie> Movie { get; set; } = default!;
+        public DbSet<Movie> Movie { get; set; } = default!;
     }
 }
